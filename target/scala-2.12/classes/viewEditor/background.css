@@ -1,0 +1,116 @@
+
+#gamePane {
+    -fx-background-color: black;
+}
+
+#navBar, #exitBtn, #tutorBtn {
+    -fx-background-color: black;
+    -fx-font-size: 15px;
+}
+
+#navBar .menu .menu-item:hover {
+    -fx-background-color: darkgray; /* Optional: Add a hover effect for better UX */
+}
+.root {
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Silkscreen";
+}
+
+#mainPage {
+    -fx-background-color: black;
+    -fx-background-image: url("../images/mainmenu.gif");
+}
+
+#startPage {
+    -fx-background-color: black;
+    -fx-background-image: url("../images/startpage.gif");
+}
+
+#welcomeLabel {
+    -fx-font-family: "Silkscreen";
+    -fx-font-size: 30;
+    -fx-text-fill: white;
+}
+
+#startBtn {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+#startBtn:hover, #btnGame:hover, #btnBoard:hover, #btnQuit:hover, #btnConfirm:hover {
+    -fx-text-fill: red;
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, red, 40, 0, 0, 0);
+}
+
+#btnGame, #btnBoard, #btnQuit, #btnConfirm, #okBtn{
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+
+#startBtn:hover, #btnGame:hover, #btnBoard:hover, #btnQuit:hover, #btnConfirm:hover, #okBtn:hover{
+    -fx-text-fill: red;
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, red, 40, 0, 0, 0);
+}
+
+#boardHeader, #menuTitle{
+    -fx-text-fill: #ffcc00;
+    -fx-font-family: "Silkscreen";
+    -fx-effect: dropshadow(gaussian, #000000, 20, 0.8, 0, 0);
+}
+
+#boardPage{
+    -fx-background-color: #1c1c1c;
+}
+
+#RankView{
+    -fx-background-color: transparent;
+    -fx-border-color: #ffcc00;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+
+#tableNo, #tableName, #tableScore {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffcc00;
+    -fx-background-color: black;
+}
+
+
+#RankView .scroll-bar {
+    -fx-background-color: #1c1c1c;
+}
+
+#RankView .scroll-bar:vertical .thumb,
+#RankView .scroll-bar:horizontal .thumb {
+    -fx-background-color: #ffcc00;
+    -fx-background-radius: 5px;
+}
+
+#RankView .scroll-bar:vertical .track,
+#RankView .scroll-bar:horizontal .track {
+    -fx-background-color: #3e3e3e;
+}
+
+#RankView .scroll-bar:vertical .increment-button,
+#RankView .scroll-bar:vertical .decrement-button,
+#RankView .scroll-bar:horizontal .increment-button,
+#RankView .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-background-radius: 5px;
+}
+
+
+#tutorPane{
+    -fx-background-color: black;
+}

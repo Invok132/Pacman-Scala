@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Sep 24 17:25:15 SGT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0192-2359-6a70-000013460150 
+on database directory C:\Users\Gan Wei Chen\IdeaProjects\finalprojectv2-GanWeiChen\pacmanDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Gan%20Wei%20Chen/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_401-b10
+user.dir=C:\Users\Gan Wei Chen\IdeaProjects\finalprojectv2-GanWeiChen
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

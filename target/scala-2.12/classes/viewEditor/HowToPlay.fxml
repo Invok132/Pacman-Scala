@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="tutorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.Starter.HowToPlayController">
+   <children>
+      <Label contentDisplay="CENTER" graphicTextGap="20.0" layoutX="227.0" layoutY="14.0" prefHeight="20.0" prefWidth="147.0" text="UP BUTTON TO GO UP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" graphicTextGap="20.0" layoutX="63.0" layoutY="170.0" prefHeight="20.0" prefWidth="172.0" text="LEFT BUTTON TO GO LEFT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" graphicTextGap="20.0" layoutX="384.0" layoutY="170.0" prefHeight="20.0" prefWidth="190.0" text="RIGHT BUTTON TO GO RIGHT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" graphicTextGap="20.0" layoutX="199.0" layoutY="340.0" prefHeight="17.0" prefWidth="202.0" text="DOWN BUTTON TO GO DOWN">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="63.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="424.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/5.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="okBtn" defaultButton="true" layoutX="462.0" layoutY="319.0" mnemonicParsing="false" onAction="#handleMainMenu" stylesheets="@background.css" text="Confirm">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
